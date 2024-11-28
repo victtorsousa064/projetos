@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#nav{
+    width: 100%;
+    display: inline-flex;
+    background-color: antiquewhite;
+}
+#nav a {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+#nav a:hover{
+    background-color: aquamarine;
+    transition: 0.5s;
+    border-radius: 10pt;
+}
